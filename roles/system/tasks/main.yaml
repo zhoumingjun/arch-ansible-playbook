@@ -1,0 +1,29 @@
+- name: install common
+  become: yes
+  pacman:
+    name: '{{ item }}'
+    state: present
+  with_items:
+    - expect
+    - git
+    - tree
+    - vim
+    - zsh
+    
+ 
+- name: install fonts
+  become: yes
+  pacman:
+    name: '{{ item }}'
+    state: present
+  with_items:
+    - ttf-fira-code
+    - powerline-fonts
+
+- name: install input method
+  become: yes
+  pacman:
+    name: '{{ item }}'
+    state: present
+  with_items:
+    - ibus-rime
