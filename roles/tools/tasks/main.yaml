@@ -11,6 +11,7 @@
       - shadowsocks-libev
       - zeal
       - hyper
+      - jq
     state: present
  
 
