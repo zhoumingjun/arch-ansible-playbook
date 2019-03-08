@@ -12,7 +12,7 @@
     - chrome-gnome-shell
     
  
- - name: install theme
+- name: install theme
   become: yes
   pacman:
     name: '{{ item }}'
