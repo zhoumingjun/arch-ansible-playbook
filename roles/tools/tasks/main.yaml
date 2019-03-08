@@ -12,6 +12,7 @@
       - zeal
       - hyper
       - jq
+      - autojump
     state: present
     
  
