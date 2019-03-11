@@ -1,37 +1,13 @@
-- name: add docker-ce key
+- name: install packages from repo
   become: yes
   pacman:
-    name: '{{ item }}'
     state: present
-  with_items:
-    - docker
-    - docker-compose
-    
-- name: install jdk packages
-  become: yes
-  pacman:
-    name: "{{ item }}"
-    state: latest
-  with_items:
-    - jdk-openjdk
-    - jdk8-openjdk    
-
-
-
-- name: install code packages
-  become: yes
-  pacman:
-    name: "{{ item }}"
-    state: latest
-  with_items:
-    - code   
-
-
-- name: install jdk packages
-  become: yes
-  pacman:
-    name: "{{ item }}"
-    state: latest
-  with_items:
-    - yarn  
+    name:
+      - docker
+      - docker-compose
+      - jdk-openjdk
+      - jdk8-openjdk    
+      - code   
+      - yarn  
+      - maven
  
