@@ -1,15 +1,12 @@
 #!/bin/bash
 
 #tool 
-pamac build shutter 
+pamac build \
+    hyper \
+    jetbrains-toolbox \
+    slack-desktop \
+    electronic-wechat 
 
-#development
-pamac build jetbrains-toolbox
-
-#im 
-pamac build slack-desktop
-pamac build electronic-wechat
-pamac build teamviewerd
 
 
  

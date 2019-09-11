@@ -16,5 +16,5 @@ fi
 echo ""
 echo "Customize the playbook ansible-desktop.yml to suit your needs, then run ansible with :"
 echo "  ansible-playbook workstation.yml -i hosts --connection local --ask-become-pass -vv"
-echo ""
+echo "  "
 
