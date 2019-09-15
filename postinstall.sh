@@ -1,11 +1,13 @@
 #!/bin/bash
 
 #tool 
-pamac build \
+yay -S \
     hyper \
     jetbrains-toolbox \
     slack-desktop \
-    electronic-wechat 
+    electronic-wechat \
+    google-chrome \
+    nautilus-dropbox 
 
 
 

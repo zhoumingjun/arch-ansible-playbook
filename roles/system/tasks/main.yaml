@@ -10,20 +10,21 @@
       - vim
       - zsh
       - chrome-gnome-shell
-
+      # gnome
+      - gnome-tweaks
       # theme
-      - ttf-fira-code
-      - powerline-fonts
-      - adobe-source-code-pro-fonts
-
+      - arc-gtk-theme
+      - papirus-icon-theme
       # fonts
       - ttf-fira-code
       - powerline-fonts
       - adobe-source-code-pro-fonts
-
+      - noto-fonts
+      - noto-fonts-cjk
+      - noto-fonts-emoji
+      - noto-fonts-extra
       # input method
       - ibus-rime
-
       # tools
       - evolution
       - evolution-ews
@@ -34,7 +35,7 @@
       - shadowsocks-libev
       - jq
       - autojump
-
+      - firefox
       # development
       - docker
       - docker-compose
@@ -44,6 +45,6 @@
       - yarn
       - maven
       - zeal
-
       # desktop
       - flameshot
+ 
