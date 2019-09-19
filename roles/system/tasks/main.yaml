@@ -17,6 +17,9 @@
       - papirus-icon-theme
       # fonts
       - ttf-fira-code
+      - ttf-fira-mono
+      - ttf-fira-sans
+      - ttf-ibm-plex
       - powerline-fonts
       - adobe-source-code-pro-fonts
       - noto-fonts
@@ -47,4 +50,3 @@
       - zeal
       # desktop
       - flameshot
- 
